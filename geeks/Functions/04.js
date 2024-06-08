@@ -111,6 +111,8 @@ characters("h","u")
 
 
 // -----------
+// when they ask no need to add a new line 
+
 process.stdout.write("1st line") // it wouldn't add a new line 
 process.stdout.write("2 nd line ")
 
