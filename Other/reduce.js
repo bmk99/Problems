@@ -57,6 +57,7 @@ const items2 = [
         accumulator[category] =[]
     }
     accumulator[category].push(item.name)
+    
     return accumulator
 
   },{})
@@ -70,9 +71,11 @@ console.log("remove duplicate -------------------------")
 const items3 = [1, 2, 3, 1, 2, 3, 7, 8, 7];
 
 const uniqueItems =  items3.reduce((accumulator,item)=>{
+
     if(!accumulator.includes(item)){
         accumulator.push(item)
     }
+
     return accumulator
 
 },[])
@@ -99,3 +102,8 @@ const totalScore1 =items4.reduce((accumulator, item, index, array) => {
   return accumulator += item
 }, initialAccumulatorValue)
 // The full syntax of the reduce() method
+
+// --------------
+const games =[{name:"foorball"},{name:"tabletennis"}]
+
+

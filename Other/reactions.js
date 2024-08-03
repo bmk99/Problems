@@ -1,5 +1,4 @@
-
-//  update the reactions 
+//  update the reactions
 const reacts = [
   {
     react: "like",
@@ -92,7 +91,7 @@ const reactHandler = (react) => {
         count: --updatedReactsNew[index].count,
         users: filterdata,
       };
-      
+
       // ----------------------------
       // const updatedReacts = updatedReactsNew.map((reaction) => {
       //   if (reaction.react === check) {

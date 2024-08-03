@@ -4,6 +4,8 @@
 // // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
 
 // console.log("Welcome to Programiz!");
+// indexOf is a method available for both arrays and strings in JavaScript, used to search for the first occurrence of a value using strict equality ("===").
+
 
 // n we can't call the array elements with negative value it will give undefined
 
@@ -25,7 +27,7 @@ const elementToFind2 = 14;
 // console.log(array1[-1])
 const index1 = array1.indexOf(elementToFind1);// when that index is not present it return -1
 const index2 = array1.indexOf(elementToFind2);// when index is present it return index 
-const index3 = array1.findIndex(x => x==3)
+const index3 = array1.findIndex(x => x==3) // finding theindex based on the conditon 
 
 
 console.log({index1});

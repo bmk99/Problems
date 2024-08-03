@@ -1,3 +1,6 @@
+
+// findIndex is a higher-order function specifically designed for arrays, used to search for the first element that satisfies a condition specified by a callback function
+
 const array1 = [1, 2, 1, 3, 14, 5, 9, 9];
 
 const elementToFind1 = 10;
@@ -8,6 +11,7 @@ const index4 = array1.findIndex(x => x==elementToFind2)
 
 console.log({index3}) //  return -1 because 10 element is not present
 console.log({index4})// return index number 
+console.log(array1.indexOf(14))
 
 // -----------------------------------------
 

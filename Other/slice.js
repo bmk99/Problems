@@ -82,7 +82,7 @@ const reacts = [
         },
         {
           react: "angry",
-          name: "anjitha",
+          name: "harsha",
           reactBy: {
             _id: "harsha",
           },
@@ -101,9 +101,9 @@ console.log(data)
 
 // ---------------2ty
 const data2 = reacts.filter(react => react.count !== 0)
-
+console.log(data2)
 const slicedData = data2.slice(0,1).map(react=> react.users.map(user=> user.namec))
-
+console.log(slicedData)
 // ----------------3ty
 
 const data3 = reacts.reduce((accumulator,react)=> {

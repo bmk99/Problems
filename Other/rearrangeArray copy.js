@@ -195,18 +195,21 @@ const allComments =[
 // ---------------------------------------------
 
 
-const originalComments = allComments.reduce((accumulator, comment) => {
+const originalComments = allComments.reduce((accumulator, comment,index) => {
     if (comment.parentID) {
       allComments.forEach(user => {
         if (comment.parentID === user._id) {
           user.children.push(comment);
         }
       });
+    //   console.log({allComments})
+      console.log("parent",{accumulator})
     }else{
-    accumulator.push(comment);
+        accumulator.push(comment);
+        // console.log({accumulator})
     }
-    
+    console.log('------',index)
     return accumulator;
   }, []);
   
-  console.log(originalComments[0].children);
+//   console.log(originalComments[0].children);

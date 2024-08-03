@@ -95,7 +95,7 @@ const comments = [
 
   //  scene3 
 
-  const names =[{name:"kiran"},{name:"anjitha"}]
+const names =[{name:"kiran"},{name:"anjitha"}]
 const data = names.map(name => (
 
   {...name,age:25}
