@@ -10,7 +10,7 @@ const index3 = array1.findIndex(x => x==elementToFind1) // call function passed 
 const index4 = array1.findIndex(x => x==elementToFind2)
 
 console.log({index3}) //  return -1 because 10 element is not present
-console.log({index4})// return index number 
+console.log({index4})//  return index number 
 console.log(array1.indexOf(14))
 
 // -----------------------------------------
